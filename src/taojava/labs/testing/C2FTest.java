@@ -11,13 +11,9 @@ public class C2FTest
   public void
     testC2f ()
   {
-    assertEquals (0, 0);
+    assertEquals("0C to 32F", 32, SampleMethods.c2f (0));
+    
+    assertEquals("100C to 212F", 212, SampleMethods.c2f (100));
   }
 
-  @Test
-  public void
-    test2 ()
-  {
-    assertEquals ("stupid test", 10, 3 * 5);
-  }// test2()
 }
